@@ -1,0 +1,51 @@
+<!-- 10. Write a JavaScript program to create basic calculator using switch case.
+  Ex. User input a,b and select choice + , - , * , / 
+  a=10
+  b=5
+  select choice + , - , * , /
+  +
+  Ans = 15
+  -
+  Ans = 5;
+  *
+  Ans = 50
+  /
+  Ans = 2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pr.2 Exercise of Conditional statement</title>
+</head>
+<body>
+  
+</body>
+</html>
+<script>
+    var a = parseInt(prompt("Enter first value:"));
+    var b = parseInt(prompt("Enter second value:"));
+    var c = prompt("Enter one sign from following +,-,*,/")
+    var ans;
+ switch(c) {
+   case "+":
+     ans = a + b;
+     document.write("Ans = " + ans + "");    
+     break;
+   case "-":
+     ans = a - b;
+     document.write("Ans = " + ans + "");
+     break;
+   case "*":
+     ans = a * b;
+     document.write("Ans = " + ans + "");
+     break;
+   case "/":
+     ans = a / b;
+     document.write("Ans = " + ans + "");
+     break;
+   default:
+     document.write("Invalid input");
+ }
+ </script>

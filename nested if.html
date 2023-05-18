@@ -1,0 +1,32 @@
+<!-- 9. Write a JavaScript program to find max of 4 number using nested if. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pr.2 Exercise of Conditional statement</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    var a = parseInt(prompt("Enter first number:"));
+    var b = parseInt(prompt("Enter second number:"));
+    var c = parseInt(prompt("Enter third number:"));
+    var d = parseInt(prompt("Enter fourth number:"));
+    if(a>b && a>c && a>d){
+        document.write("First number is biggest number");
+    }else{
+        if(b>a && b>c && b>d){
+            document.write("Second number is biggest number");
+        }else{
+            if(c>a && c>b && c>d){
+                document.write("Third number is biggest number");
+            }else{
+                document.write("Fourth number is biggest number");
+            }
+        }
+    }
+</script>
